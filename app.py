@@ -2,6 +2,7 @@ import os
 from datetime import datetime
 import pandas as pd
 import streamlit as st
+st.image("logo1.jpg.jpg")
 st.set_page_config(page_title="Order Nhà Hàng", layout="wide")
 
 # Đường dẫn file dữ liệu dùng chung trên máy chủ
@@ -15,6 +16,7 @@ menu = {
         "Burger Gà": 35000,
         "Bít tết Bò Mỹ": 250000,
         "Sườn nướng BBQ": 150000,
+        "Khoai tây nghiền": 69000,
         "Cánh gà chiên mắm": 75000,
         "Lẩu cá diêu hồng": 200000,
         "Lẩu Thái hải sản": 300000,
